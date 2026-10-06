@@ -1,0 +1,22 @@
+# Environment files
+.env
+.env.*
+
+# Keys and certificates
+*.pem
+*.key
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local lab files
+.bucket-name
+
