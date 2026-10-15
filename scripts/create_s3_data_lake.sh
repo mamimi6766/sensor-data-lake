@@ -18,7 +18,7 @@ fi
 ACCOUNT_ID="$(aws sts get-caller-identity     --profile "$PROFILE"     --query Account     --output text)"
 
 
-BUCKET_NAME="charlotte-week1-${STUDENT_ID}-${ACCOUNT_ID}-${REGION}-sadiya"
+BUCKET_NAME="charlotte-week1-${STUDENT_ID}-${ACCOUNT_ID}-${REGION}-abdullahisadiya"
 
 
 echo "AWS Account: $ACCOUNT_ID"
